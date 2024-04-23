@@ -1,10 +1,13 @@
 ---
 enable: true
-title: "Ready to build your next project with Next?"
+title: "Ready to elevate your Idea with Musezade?"
 image: "/images/call-to-action.png"
-description: "Experience the future of web development with Nextplate and Next. Build lightning-fast static sites with ease and flexibility."
+description: "Unlock the potential of your vision with Musezade. Whether you're a startup with a groundbreaking idea or an established enterprise seeking innovation, we're here to turn your aspirations into reality.
+<br />
+<br />
+ Reach out to us today and let's bring your idea to life."
 button:
   enable: true
-  label: "Get Started Now"
-  link: "https://github.com/zeon-studio/nextplate"
+  label: "Contact Us"
+  link: "/contact"
 ---

@@ -37,17 +37,21 @@ const Logo = ({ src }: { src?: string }) => {
   return (
     <Link href="/" className="navbar-brand inline-block">
       {logoPath ? (
-        <Image
-          width={logo_width.replace("px", "") * 2}
-          height={logo_height.replace("px", "") * 2}
-          src={logoPath}
-          alt={title}
-          priority
-          style={{
-            height: logo_height.replace("px", "") + "px",
-            width: logo_width.replace("px", "") + "px",
-          }}
-        />
+        // <Image
+        //   width={logo_width.replace("px", "") * 2}
+        //   height={logo_height.replace("px", "") * 2}
+        //   src={logoPath}
+        //   alt={title}
+        //   priority
+        //   style={{
+        //     height: logo_height.replace("px", "") + "px",
+        //     width: logo_width.replace("px", "") + "px",
+        //   }}
+        // />
+        <div className="flex justify-center items-center flex-row space-x-1">
+          <h1 className="text-3xl bg-[#c39736] rounded-[10px] p-[2px] px-[4px] text-black">µZ</h1>
+          <h1 className="text-3xl">MuseZade</h1>
+        </div>
       ) : logo_text ? (
         logo_text
       ) : (

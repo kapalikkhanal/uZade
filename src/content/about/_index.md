@@ -1,9 +1,14 @@
 ---
-title: "Hey, I am John Doe!"
-meta_title: "About"
-description: "this is meta description"
-image: "/images/avatar.png"
-draft: false
+# Banner
+banner:
+  title: "We are a Kathmandu based Software Company."
+  content: "We have a remote team, inhouse team, and service team to operate as per your needs."
+  image: "/images/about.jpg"
+  heading: "OUR MAIN TECH STACKS"
+  heading_content: "Below are some of our current Tech Stacks. However, our team is equally flexible to work with other stacks."
+  button:
+    enable: true
+    label: "Get in touch"
+    link: "https://github.com/zeon-studio/nextplate"
 ---
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis illum nesciunt commodi vel nisi ut alias excepturi ipsum, totam, labore tempora, odit ex iste tempore sed. Fugit voluptatibus perspiciatis assumenda nulla ad nihil, omnis vel, doloremque sit quam autem optio maiores, illum eius facilis et quo consectetur provident dolor similique! Enim voluptatem dicta expedita veritatis repellat dolorum impedit, provident quasi at.
